@@ -9,9 +9,9 @@ void main()
 	cin >> regular_hrs;
 	cin >> overtime_hrs;
 	cin >> wage_rate;
-	regular_pay=regular_hrs*wage_rate;
-	overtime_pay=overtime_hrs*(wage_rate*1.5);
-	weekly_pay=overtime_pay+regular_pay;
+	regular_pay = regular_hrs*wage_rate;
+	overtime_pay = overtime_hrs * (wage_rate * 1.5);
+	weekly_pay = overtime_pay + regular_pay;
 	cout << "Weekly pay is " << weekly_pay;
 	getch();
 

@@ -20,6 +20,7 @@ void main()
 		case 'Q' : dis_amount = price * 0.25;
 			break;
 		case 'Z' : dis_amount = price * 0.0;
+			cout << "\nNo discount" << endl;
 			break;
 		default  :
 			cout << "\nInvalid pricing code" << endl << endl;

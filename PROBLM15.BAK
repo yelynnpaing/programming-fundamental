@@ -7,15 +7,15 @@ void main()
 	float ava_score;
 	cout << "\nEnter Roll no. and exam score : ";
 	cin >> roll_no;
-	if(roll_no < 999)
+	if(roll_no < 9999)
 		cin >> ex_score;
-	while(roll_no < 999)
+	while(roll_no < 9999)
 	{
 	 total_std++;
 	 total_score += ex_score;
 	 cout << "\nEnter Roll No. and exam score : ";
 	 cin >> roll_no;
-	 if(roll_no < 999)
+	 if(roll_no < 9999)
 		cin >> ex_score;
 	}
 	if(total_std != 0)
